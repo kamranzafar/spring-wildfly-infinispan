@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("rest/cache")
-public class JndiResource {
+public class CacheResource {
     @Autowired
     private Cache defaultCache;
 
