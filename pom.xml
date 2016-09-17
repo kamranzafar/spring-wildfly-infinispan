@@ -60,7 +60,7 @@
         <dependency>
             <groupId>org.wildfly</groupId>
             <artifactId>wildfly-clustering-infinispan-extension</artifactId>
-            <version>10.0.0.Final</version>
+            <version>10.1.0.Final</version>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>

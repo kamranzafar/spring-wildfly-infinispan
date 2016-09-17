@@ -3,7 +3,7 @@
 This is a sample spring boot application that demonstrates Infinispan caching integration on Wildfly servers.
 It works for both local and distributed caching on both standalone and clustered Wildfly instances.
 
-This application requires a custom cache container on Wildfly, below is how it can be created.
+This application is tested on Wildfly 10.1.0.Final and requires a custom cache container, below is how it can be created.
 
 ## Running the application
 
