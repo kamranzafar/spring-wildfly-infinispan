@@ -23,7 +23,7 @@ public class CacheResource {
 
     @RequestMapping(value = "{key}/{value}", method = RequestMethod.PUT)
     public void set(@PathVariable("key") String key, @PathVariable("value") String value) {
-        defaultCache.putForExternalRead(key, value);
+        defaultCache.put(key, value);
     }
 
     @RequestMapping(value = "{key}", method = RequestMethod.DELETE)
