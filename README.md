@@ -32,6 +32,6 @@ Run the server with full-ha profile and add the following cache container to sta
 
 The application exposes the following rest endpoints to add, retrieve and remove cache entries
 
-GET /rest/cache/{key}
-PUT /rest/cache/{key}/{value}
-DELETE /rest/cache/{key}
+GET /rest/cache/{key}</br>
+PUT /rest/cache/{key}/{value}</br>
+DELETE /rest/cache/{key}</br>
