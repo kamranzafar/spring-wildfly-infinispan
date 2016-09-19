@@ -41,3 +41,8 @@ The application exposes the following rest endpoints to add, retrieve and remove
 GET /rest/cache/{key}</br>
 PUT /rest/cache/{key}/{value}</br>
 DELETE /rest/cache/{key}</br>
+
+## Resources
+Visit the following blog post for more details
+
+[Spring and Infinispan Integration on Wildfly Cluster](https://kamranzafar.org/2016/09/17/spring-and-infinispan-integration-on-wildfly-cluster/)
